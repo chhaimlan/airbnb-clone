@@ -1,0 +1,56 @@
+.typeroomDetials{
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+
+}
+.typeroomDetials:hover{
+    opacity: 0.8;
+}
+.typeroomDetials > img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.typeroomDetials_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    width: 40vw;
+}
+.typeroomDetials_heart{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: red;
+}
+.typeroomDetials_info > h3{
+    font-weight: 300;
+    margin-top: 10px;
+}
+.typeroomDetials_info >p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+}
+.typeroomDetials_info >h2{
+    padding-bottom: 10px;
+    font-weight:500;
+    margin-top: 10px;
+}
+.typeroomDetials_info > button{
+    padding: 5px;
+    text-transform: inherit !important;
+    background-color: #ff7779;
+    color: white;
+    width: 150px;
+}
+.typeroomDetials_info > button:hover{
+    background-color: white;
+    color: #ff7779;
+}

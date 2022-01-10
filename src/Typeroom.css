@@ -1,0 +1,16 @@
+.typeroom_info{
+    padding: 20px;
+}
+.typeroom_info >p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.typeroom_info >h1{
+    margin-bottom: 30px;
+}
+.back{
+    cursor: pointer;  
+}
+.back:hover{
+    background-color: gray;
+}

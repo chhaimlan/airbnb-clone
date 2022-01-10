@@ -1,0 +1,41 @@
+.benner{
+    background: url('https://d21buns5ku92am.cloudfront.net/33070/images/161688-Airbnb%20Banner%20eYeka%20Contest-588e85-large-1427862563.jpg') center center;
+    background-size: cover;
+    height: 50vh;     
+    position: relative;    
+}
+.benner_info{
+    background-color: black;
+    color: white;
+    padding-top: 20vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+.benner_search{
+ display: flex;
+ flex-direction: column;
+
+
+}
+.banner_button{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+.benner_info > button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.benner_info > button:hover{
+    background-color: white;
+    color: #ff7779;
+}
+.benner_info > h5{
+    margin-top: 10px;
+}
